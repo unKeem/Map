@@ -15,6 +15,7 @@
 local.properties
 
 SeoulOpenAPI.kt
+library_API.txt
 
 # Created by https://www.toptal.com/developers/gitignore/api/android,androidstudio,kotlin
 # Edit at https://www.toptal.com/developers/gitignore?templates=android,androidstudio,kotlin

@@ -117,7 +117,7 @@ class MainActivity : AppCompatActivity(), GoogleApiClient.ConnectionCallbacks,
         // interface SeoulOpenService 로 존재함
         val service = retrofit.create(SeoulOpenService::class.java)
 
-        service.getLibraries(SeoulOpenAPI.API_KEY, 50)  //200은 200개를 가져오겠다. 설정함.
+        service.getLibraries(SeoulOpenAPI.API_KEY, 10)  //200은 200개를 가져오겠다. 설정함.
             .enqueue(object : Callback<Library> {
                 override fun onResponse(call: Call<Library>, response: Response<Library>) {
                     val result = response.body()
